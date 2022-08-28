@@ -1,0 +1,119 @@
+:root {
+    --pricipal-color: #828282;
+    --seond-color:  #1F3A3D;
+    --terc-color:  #063971;
+  }
+  
+  .nav_cont{
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 12vh;
+    transition: top 0.4s;
+    z-index: 999;
+  }
+
+  .nav_logo{
+    width: 60px;
+    height: 60px;
+    background: url("https://us.123rf.com/450wm/mamun25g/mamun25g2007/mamun25g200701134/151666985-dise%C3%B1o-de-logotipo-de-letra-s-dise%C3%B1o-de-letra-s-logotipo-s-.jpg?ver=6");
+    background-size: cover;
+  }
+  .nav_list{
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav_item a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    transition:border .5s ease-in-out ;
+  }
+  .nav_list a:hover{
+    border-bottom: solid 2px black;
+  }
+  .nav_btn{
+    display: none;
+    position: absolute;
+    right: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  /* Nav Btn */
+
+  .nav_list_btn{
+    background-color: #828282;
+    background:linear-gradient(0deg, rgb(171, 205, 255) 0%,  whitesmoke 100%) ;
+    width: 100%;
+    display: block;
+    position: absolute;
+    list-style: none;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 15px 15px;
+    z-index: 1;
+    
+    transition: all .5s ease-in-out;
+  
+  }
+  .nav_list_btn .nav_item{
+    width: 100%;
+    display: block;
+  }
+  .nav_list_btn .nav_item {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    border-bottom: 2px solid black;
+    transition: background .3s ease-in-out;
+  } 
+  .nav_list_btn .nav_item:nth-last-child(1){
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .nav_list_btn .nav_item a{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nav_list_btn .nav_item:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  /* media */
+
+@media screen and (max-width:812px){
+    .nav_cont{
+      height: auto;
+    }  
+    .nav_item a{
+        font-size: 17px;
+    }
+    .nav_list{
+        gap: 30px;
+    }
+
+  }
+@media screen and (max-width:600px) {
+    .nav_list{
+        display: none;
+    }
+    .nav_btn{
+        display: inline;
+    }
+}

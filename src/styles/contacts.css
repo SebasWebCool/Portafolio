@@ -1,0 +1,51 @@
+.contact{
+   width: 100%;
+}
+.cont-grid{
+    padding: 30px 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cont-grid-num{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-grid-num i{
+    font-size: 40px;
+    margin-bottom: 1rem;
+    padding: 20px;
+    background-color:var(--terc-color);
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+    color: #fff;
+}
+.cont-grid a {
+    text-decoration: none;
+    color: #fff;
+}
+.cont-grid-num i:hover{
+    background-color: #000;
+}
+.cont-grid-num h3{
+    font-size: 15px;
+    color: #000;
+}
+.cont-grid-num p{
+    font-size: 15px;
+    margin: 0;
+    color: #000;
+}
+@media screen and (max-width:670px){
+    .cont-grid-num{
+        width: 200px;
+    }
+    
+}

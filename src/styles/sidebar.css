@@ -1,0 +1,28 @@
+.sidebar{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.list_sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.list_item_sidebar a i{
+    font-size: 35px;
+}
+.list_item_sidebar a i{
+    padding: 2px;
+    border-radius: 50%;
+    transition: background ease-in-out .4s;
+}
+.list_item_sidebar a i:hover{
+    background-color: var(--terc-color);
+      color: white;   
+}
