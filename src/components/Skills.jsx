@@ -3,7 +3,7 @@ import '../styles/Skill.css'
 
 const Skills = () => {
     return (
-        <div className='skills_cont'>
+        <div className='skills_cont' id='skills'>
             <div className="subtitle">
                 <h2 className='h2'>Skills</h2>
             </div>
@@ -11,7 +11,7 @@ const Skills = () => {
                 <div className="flip_card">
                     <div className="flip_card_inner">
                         <div className="flip_card_front">
-                            <img src="src\img\html.png" alt="img html" />
+                            <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737600/Portafolio%20Img/html_t9rcrd.png" alt="img html" />
                         </div>
                         <div className="flip_card_back">
                             <div className="circle_cont cc1">
@@ -60,7 +60,7 @@ const Skills = () => {
                 <div className="flip_card">
                     <div className="flip_card_inner">
                         <div className="flip_card_front">
-                            <img src="src\img\javascript.png" alt='Javascript img'/>
+                            <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737596/Portafolio%20Img/javascript_slwiky.png" alt='Javascript img'/>
                         </div>
                         <div className="flip_card_back">
                             <div className="circle_cont cc3">

@@ -43,9 +43,15 @@
     margin: 0;
     color: #000;
 }
-@media screen and (max-width:670px){
+@media screen and (max-width:450px){
     .cont-grid-num{
-        width: 200px;
+        width: 100px;
+        gap: 0;
     }
-    
+    .cont-grid{
+        gap: 36px;
+    }
+    .cont-grid h3,.cont-grid p{
+        font-size: 12px;
+    }
 }

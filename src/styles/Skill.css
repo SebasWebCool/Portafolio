@@ -168,3 +168,13 @@ svg circle{
     stroke-dashoffset: calc(440 - (440 * 95)/100);
     stroke: rgb(0, 110, 255);
 }
+
+@media screen and (max-width:810px){
+    .flip_card{
+        width: 250px;
+        height: 250px;
+    }
+    .circle_cont:hover .porcent .number h2{
+        font-size: 40px;
+    }
+}

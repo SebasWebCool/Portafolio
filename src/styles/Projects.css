@@ -30,3 +30,17 @@
     box-shadow: 2px 16px 9px 0px rgba(0,0,0,0.76);
 
 }
+@media screen and (max-width:620px) {
+    .pro-cont-img{
+        width: 400px;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .pro-cont-img{
+        width: 280px;
+        height: auto;
+    }
+    
+}

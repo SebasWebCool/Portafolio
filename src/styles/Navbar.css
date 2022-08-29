@@ -12,7 +12,7 @@
     justify-content:space-between;
     align-items: center;
     background-color: whitesmoke;
-    height: 12vh;
+    height: 60px;
     transition: top 0.4s;
     z-index: 999;
   }
