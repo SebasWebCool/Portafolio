@@ -6,9 +6,9 @@ const Header = () => {
         <div className='header_bg'>
             <div className="header_cont">
                 <h1>Sebastian Diaz</h1>
-                <h2>Frontend Developer</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus modi blanditiis cupiditate, autem vel molestias. Quidem eligendi mollitia assumenda excepturi voluptate obcaecati architecto repudiandae, ad consequuntur ipsum velit? Eum, magnam!</p>
-                <button className='header_btn btn'><a href="#cont-form">Contact Me</a></button>
+                <h2>Front-end Developer</h2>
+                <p>I am a Frontend Developer allways looking for improvement and knowledge in the worl of programing</p>
+                <a href="#cont-form"><button className='header_btn btn'><p>Contact Me</p> </button></a>
             </div>
         </div>
         </header>

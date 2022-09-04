@@ -17,7 +17,7 @@ let scrollY = window.scrollY
 window.onscroll = function() {
     let actualScroll  = window.scrollY
     if(scrollY >= actualScroll){
-        document.getElementById('nav').style.top = '-80px'
+        document.getElementById('nav').style.top = '-100px'
     } else{
         document.getElementById('nav').style.top ='0'
     }

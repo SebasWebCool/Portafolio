@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div className="about_inf">
           <div className="about_text">
             <h3>How did I Started</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro suscipit praesentium, commodi ut ducimus error illo et sint. Sit velit optio debitis, fugit maxime dolore. Atque cupiditate similique maxime assumenda ipsa quo quidem velit ipsum voluptate eaque non, repudiandae fugit, hic asperiores magni itaque ipsam. Dolor praesentium fuga assumenda totam dignissimos, natus esse consequatur asperiores maxime reprehenderit a obcaecati eos commodi provident magni quasi velit. Necessitatibus magnam ad iure delectus, debitis quidem illo magni, eos, dicta sint autem sed voluptatibus. Adipisci quas distinctio eveniet quo eligendi reiciendis sit veniam sunt. Adipisci magnam quasi fugit alias exercitationem autem error eligendi numquam!</p>
+            <p>At university I took a Programming course where I learned C++, doing several programming logic exercises. Then I did some research on my own about programming and web development. Right now I am taking a Web Development course at Academlo and there I have learned a lot about HTML, CSS, JS and React. I continue to work constantly on new projects to improve and  acquire new knowledge and expand what I already have in this programming environment.</p>
           </div>
           <div className='about_img'>
             <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737598/Portafolio%20Img/yo_mmwevb.png" alt="" />

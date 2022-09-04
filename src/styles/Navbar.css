@@ -79,7 +79,6 @@
     text-align: center;
     width: 100%;
     color: white;
-    border-bottom: 2px solid black;
     transition: background .3s ease-in-out;
   } 
   .nav_list_btn .nav_item:nth-last-child(1){
@@ -112,6 +111,9 @@
 @media screen and (max-width:600px) {
     .nav_list{
         display: none;
+    }
+    .nav_list a{
+      padding: 10px 30%;
     }
     .nav_btn{
         display: inline;

@@ -36,6 +36,9 @@
     font-size: 17px;
     width: 40%;
 }
+.about_text p{
+    text-align: justify;
+}
 .subtitle{
     display: inline-block;
     /* position: ; */

@@ -9,14 +9,16 @@
 }
 header{
     background-color: white;
+    background-image: url("https://monophy.com/media/xUA7aVxIL7ijDUYQ6Y/monophy.gif");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* .header_bg{
-    background: url('./img/yo2.png') 100% no-repeat ;
-    background-size: 850px;
-} */
+.header_bg{
+    
+    /* background-size: 850px; */
+}
 .header_cont{
     padding: 40px 0;
     width: 600px;
@@ -25,6 +27,7 @@ header{
     margin-left: 200px;
     justify-content: center;
     align-items: flex-start;
+    color: whitesmoke;
     gap: 20px;
 }
 .header_cont h1{
@@ -50,10 +53,11 @@ header{
 .header_btn{
     background-color: var(--terc-color);
 }
-.header_btn a{
+.header_btn p{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    margin: 0;
 }
 @media screen and (max-width:800px){
     .header_cont{
