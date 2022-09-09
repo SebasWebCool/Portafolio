@@ -9,16 +9,14 @@
 }
 header{
     background-color: white;
-    background-image: url("https://monophy.com/media/xUA7aVxIL7ijDUYQ6Y/monophy.gif");
+    background-image: url("https://i.gifer.com/3ZNo.gif");
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header_bg{
-    
-    /* background-size: 850px; */
-}
+
 .header_cont{
     padding: 40px 0;
     width: 600px;
