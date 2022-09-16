@@ -16,7 +16,12 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+.header__btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .header_cont{
     padding: 40px 0;
     width: 600px;
@@ -69,6 +74,9 @@ header{
         width: 90%;
         padding: 30px 20px;
         align-items: center;
+    }
+    .header__btns{
+        flex-direction: column;
     }
     /* .header_cont h1, .header_cont h2{
         margin: 10px 0
