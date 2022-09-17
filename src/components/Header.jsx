@@ -10,7 +10,7 @@ const Header = () => {
                     <p>I am a Frontend Developer allways looking for improvement and knowledge in the worl of programing</p>
                     <div className="header__btns">
                         <a href="#cont-form"><button className='header_btn btn'><p>Contact Me</p> </button></a>
-                        <a download="cv" href="./public/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a>
+                        <a download="Sebastian_Diaz_CV" href="./pdf/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a>
                     </div>
                 </div>
             </div>
