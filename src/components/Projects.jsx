@@ -27,6 +27,16 @@ const Projects = () => {
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737514/Portafolio%20Img/Users_CRUD_ggjgs1.png" alt="Project 4" />
                     </div>
                 </a>
+                <a className="a-cont" href="https://pokedex-sd.netlify.app/" target="_blank" >
+                    <div className="pro-cont-img">
+                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1663912837/Portafolio%20Img/pokedex_ganwij.png" alt="Project 5" />
+                    </div>
+                </a>
+                <a className="a-cont" href="https://darkside-commerce.netlify.app/" target="_blank" >
+                    <div className="pro-cont-img">
+                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1663913050/Portafolio%20Img/Dark_Side_e-comers_zszi9o.png" alt="Project 4" />
+                    </div>
+                </a>
             </div>
         </section>
     )
