@@ -2,15 +2,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-  :root {
-    --pricipal-color: #828282;
-    --seond-color:  #1F3A3D;
-    --terc-color:  #063971;
-  }
   body{
     margin: 0;
     padding: 0;
-    font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
     /* background-color: white; */
   }

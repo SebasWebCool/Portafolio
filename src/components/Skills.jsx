@@ -7,7 +7,7 @@ const Skills = () => {
             <div className="subtitle">
                 <h2 className='h2'>Skills</h2>
             </div>
-            <div className="cards">
+            <div className="cards trans_bg_color">
                 <div className="flip_card">
                     <div className="flip_card_inner">
                         <div className="flip_card_front">

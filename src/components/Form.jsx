@@ -49,7 +49,7 @@ form?.addEventListener('submit', async (e) => {
                 <h2 className='h2'> Contacts</h2>
             </div>
             
-            <div className="seccion__contenido">
+            <div className="trans_bg_color seccion__contenido">
                 <form id="form" className="form">
                   <div className="form-group">
                     <label htmlFor="name">Name</label>

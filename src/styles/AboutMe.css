@@ -1,8 +1,3 @@
-:root {
-    --pricipal-color: #828282;
-    --seond-color:  #1F3A3D;
-    --terc-color:  #063971;
-  }
 
 .about_cont_inf{
     width: 100%;
@@ -17,17 +12,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    color: white;
 }
 .about_img{
     width: 500px;
 }
 .about_img img{
     width: 100%;
-    /* scale: 1.1;
-    object-fit: contain;
-    object-fit: cover;
-    object-position: 50% 50%; */
 }
 .about_inf h3{
     font-size: 30px;
@@ -41,7 +32,6 @@
 }
 .subtitle{
     display: inline-block;
-    /* position: ; */
     width: initial;
     width: 100%;
     background-color: var(--terc-color);

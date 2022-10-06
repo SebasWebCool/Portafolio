@@ -6,7 +6,7 @@ const Projects = () => {
             <div className='subtitle'>
                 <h2 className=" h2">Projects</h2>
             </div>
-            <div className="pro-cont">
+            <div className="pro-cont trans_bg_color">
                 <a className="a-cont" href="https://darkside-commerce.netlify.app/" target="_blank" >
                     <div className="pro-cont-img">
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1663913050/Portafolio%20Img/Dark_Side_e-comers_zszi9o.png" alt="Project 4" />
