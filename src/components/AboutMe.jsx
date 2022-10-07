@@ -11,8 +11,21 @@ const AboutMe = () => {
       <div className="about_cont_inf trans_bg_color">
         <div className="about_inf">
           <div className="about_text float">
-            <h3>How did I Started</h3>
-            <p>At university I took a Programming course where I learned C++, doing several programming logic exercises. Then I did some research on my own about programming and web development. Right now I am taking a Web Development course at Academlo and there I have learned a lot about HTML, CSS, JS and React. I continue to work constantly on new projects to improve and  acquire new knowledge and expand what I already have in this programming environment.</p>
+            <h3>Know Me</h3>
+            <p>Active, dynamic, with very good analytical skills.
+              I am a front-end developer ready to use
+              my skills and knowledge adding value to the
+              projects and objectives of the company. <br /> <br />
+              I have done several projects using React in a
+              Academlo Bootcamp on Full Stack Web Development,
+              in which I continue in training. <br /><br />
+              Passionate about the
+              technology, I'm excited to be a part of a
+              organization where I can gain more experience and
+              allow me to contribute my skills with commitment,
+              effort and dedication to satisfying the needs of
+              company.
+            </p>
           </div>
           <div className='about_img float'>
             <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737598/Portafolio%20Img/yo_mmwevb.png" alt="" />
