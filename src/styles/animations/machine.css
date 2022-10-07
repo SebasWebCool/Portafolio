@@ -11,6 +11,7 @@
     background-color: var(--pricipal-color);
     right: 0;
     width: 0;
+    background-color: black;
     /* border-left:1px solid black; */
     color: white;
     animation: machine 9s infinite alternate steps(97);
@@ -18,11 +19,9 @@
 
 @keyframes machine{
     0%{
-        background-color: black;
         width: 100%;
     }
     100%{
-        background-color: var(--second-color);
         width: 0;
     }
     

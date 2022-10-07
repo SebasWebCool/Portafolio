@@ -4,7 +4,7 @@ import '../styles/animations/machine.css'
 import '../styles/animations/laserTag.css'
 const Header = () => {
     return (
-        <header className='cont trans_bg_color' id='home'>
+        <header className='cont bg_black' id='home'>
             <div className='header_bg'>
                 <div className="header_cont">
                     <div class="animation-container">

@@ -8,6 +8,9 @@
     width: 100%;
     height: 100vh;
 }
+.bg_black{
+    background-color: black;
+}
 .trans_bg_color{
     animation: bgcolor;
     animation-duration: 9s;
