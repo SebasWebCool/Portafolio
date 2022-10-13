@@ -12,19 +12,11 @@ const AboutMe = () => {
         <div className="about_inf">
           <div className="about_text float">
             <h3>Know Me</h3>
-            <p>Active, dynamic, with very good analytical skills.
-              I am a front-end developer ready to use
-              my skills and knowledge adding value to the
-              projects and objectives of the company. <br /> <br />
+            <p>Active, dynamic, with very good analytical skills. I'm a front-end developer ready to use my skills and knowledge to add value to the projects and objectives of the company. <br /> <br />
               I have done several projects using React in a
               Academlo Bootcamp on Full Stack Web Development,
-              in which I continue in training. <br /><br />
-              Passionate about the
-              technology, I'm excited to be a part of a
-              organization where I can gain more experience and
-              allow me to contribute my skills with commitment,
-              effort and dedication to satisfying the needs of
-              company.
+              in which I'm still in training. <br /><br />
+              Passionate about technology, I'm excited to be a part of an organization where I can gain more experience and allow me to contribute my skills with commitment, effort, and dedication to satisfying the needs of the company.
             </p>
           </div>
           <div className='about_img float'>
