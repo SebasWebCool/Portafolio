@@ -21,7 +21,7 @@ const Projects = () => {
                             </p>
                             <span>Description</span>
                         </div>
-                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1667923036/Portafolio%20Img/Wobble-search_ahbqfd.png" alt="Project 5" />
+                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1667972145/Portafolio%20Img/Wobble-search_xgkofm.png" alt="Project 5" />
                     </div>
                 </a>
                 <a className="a-cont" href="htt4ps://pokedex-sd.netlify.app/" target="_blank" >

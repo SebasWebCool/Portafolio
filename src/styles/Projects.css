@@ -46,6 +46,7 @@
 .pro-cont-description p{
     padding: 0 15px;
     text-align: justify;
+    text-decoration: none;
 }
 .pro-cont-description span{
     padding-bottom: 10px;
@@ -63,11 +64,11 @@
         bottom: 250px;
     }
     .pro-cont{
-        gap: 30px;
+        gap: 45px;
     }
     .pro-cont-description{
         height: 250px;
-        padding-top: 90px;
+        padding-top: 120px;
     }
     
 }
