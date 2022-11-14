@@ -44,6 +44,7 @@ const Header = () => {
 
                     <div className="header__btns">
                         <a href="#cont-form"><button className='header_btn btn'><p>Contact Me</p> </button></a>
+                        <a href="https://www.linkedin.com/in/sebasti%C3%A1n-e-d%C3%ADaz-ram%C3%ADrez-3a4960244/"><i className='bx bxl-linkedin-square' ></i></a>
                         {/* <a download="Sebastian_Diaz_CV" href="./public/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a> */}
                     </div>
                 </div>

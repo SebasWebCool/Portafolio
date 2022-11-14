@@ -71,6 +71,14 @@ header{
     font-size: 20px;
     margin: 0;
 }
+.header__btns a i{
+    font-size: 40px;
+    color: white;
+    transition: color ease-out .3s;
+}
+.header__btns a i:hover{
+   color: #4726a1;
+}
 @media screen and (max-width:820px) {
     .header_cont{
         min-width: 0px;

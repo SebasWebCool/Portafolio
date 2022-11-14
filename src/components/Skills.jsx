@@ -47,7 +47,7 @@ const Skills = () => {
                                             <circle className='c2' cx="70" cy="70" r="70" />
                                         </svg>
                                         <div className="number">
-                                            <h2>80<span>%</span></h2>
+                                            <h2>90<span>%</span></h2>
                                         </div>
                                         <h3 className="text">CSS</h3>
                                     </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                                             <circle className='c2' cx="70" cy="70" r="70" />
                                         </svg>
                                         <div className="number">
-                                            <h2>85<span>%</span></h2>
+                                            <h2>90<span>%</span></h2>
                                         </div>
                                         <h3 className="text">Javascript</h3>
                                     </div>
@@ -98,6 +98,30 @@ const Skills = () => {
                                             <h2>95<span>%</span></h2>
                                         </div>
                                         <h3 className="text">React</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flip_card">
+                    <div className="flip_card_inner">
+                        <div className="flip_card_front">
+                            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" alt="img NodeJS" />
+                        </div>
+                        <div className="flip_card_back">
+                           <div className="circle_cont cc4">
+                                <div className="box">
+                                    <div className="porcent">
+                                        <svg>
+                                            <circle cx="70" cy="70" r="70" />
+                                            <circle className='c2' cx="70" cy="70" r="70" />
+                                        </svg>
+                                        <div className="number">
+                                            <h2>85<span>%</span></h2>
+                                        </div>
+                                        <h3 className="text">NodeJS</h3>
                                     </div>
                                 </div>
                             </div>
