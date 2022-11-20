@@ -1,29 +1,53 @@
   .nav_cont{
     position: fixed;
     width: 100%;
-    padding: 10px 20px;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     background-color: var(--terc-color);
     height: 60px;
     transition: top 0.4s;
     z-index: 999;
+    
   }
-
-  .nav_logo{
+.nav_cont_btnlogo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.nav_logo{
     width: 60px;
     height: 60px;
     background: url("https://us.123rf.com/450wm/mamun25g/mamun25g2007/mamun25g200701134/151666985-dise%C3%B1o-de-logotipo-de-letra-s-dise%C3%B1o-de-letra-s-logotipo-s-.jpg?ver=6");
     background-size: cover;
+}
+  .nav_donwnload{
+    height: 100%;
+  }
+  .nav_donwnload_btn{
+    width: 130px;
+    background-color: var(--second-color);
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    color: var(--terc-color);
+    font-size: larger;
+    transition: all .3s ease-out;
+  }
+  .nav_donwnload_btn:hover{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+    transform: translateY(15px);
+    box-shadow: 2px 16px 9px 0px rgba(0,0,0,0.76);
   }
   .nav_list{
-    padding: 30px 0;
-    width: 100%;
+    margin: 30px 40px;
+    width: 65%;
     display: flex;
     list-style: none;
-    gap: 60px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .nav_item a{
@@ -90,16 +114,9 @@
   /* media */
 
 @media screen and (max-width:812px){
-    .nav_cont{
-      height: auto;
-    }  
     .nav_item a{
-        font-size: 17px;
+        font-size: 15px;
     }
-    .nav_list{
-        gap: 30px;
-    }
-
   }
 @media screen and (max-width:600px) {
     .nav_list{

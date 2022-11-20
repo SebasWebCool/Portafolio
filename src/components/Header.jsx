@@ -33,7 +33,7 @@ const Header = () => {
                                 Hello, I am
                             </p>
                             <ul class="content__container__list">
-                                <li class="content__container__list__item">a Front-end Developer</li>
+                                <li class="content__container__list__item">a Full Stack Developer</li>
                                 <li class="content__container__list__item">Sebastian Diaz</li>
                             </ul>
                         </div>
@@ -43,7 +43,11 @@ const Header = () => {
                     </div>
 
                     <div className="header__btns">
+                        <a href="./public/CV_Sebastian_Diaz_Full-Stack.pdf" download><button className='header_btn btn'><p>Download CV</p> </button></a>
                         <a href="#cont-form"><button className='header_btn btn'><p>Contact Me</p> </button></a>
+                        {/* <a download="Sebastian_Diaz_CV" href="./public/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a> */}
+                    </div>
+                    <div className="header__btns">
                         <a href="https://www.linkedin.com/in/sebasti%C3%A1n-e-d%C3%ADaz-ram%C3%ADrez-3a4960244/"><i className='bx bxl-linkedin-square' ></i></a>
                         {/* <a download="Sebastian_Diaz_CV" href="./public/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a> */}
                     </div>

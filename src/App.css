@@ -72,7 +72,7 @@ header{
     margin: 0;
 }
 .header__btns a i{
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     transition: color ease-out .3s;
 }
