@@ -31,7 +31,7 @@ const Navbar = () => {
                     {/* <img src="#" alt="Sebastian`s Logo" /> 
                 </div> */}
                 <div className='nav_donwnload'>
-                    <a href="./public/CV_Sebastian_Diaz_Full-Stack.pdf" download><button className='nav_donwnload_btn'><p>Download CV</p> </button></a>
+                    <a href="./CV_Sebastian_Diaz_Full-Stack.pdf" download><button className='nav_donwnload_btn'><p>Download CV</p> </button></a>
                 </div>
             </div>
             <ul className={btnNav ? 'nav_list_btn' : `nav_list `}>
