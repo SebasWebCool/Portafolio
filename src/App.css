@@ -88,7 +88,6 @@ header{
 
   @media screen and (max-width:600px){
     .header_cont{
-        width: 90%;
         padding: 30px 20px;
         align-items: center;
     }

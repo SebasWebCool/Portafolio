@@ -16,7 +16,7 @@ const Projects = () => {
                     <div className="pro-cont-img">
                         <div className="pro-cont-description">
                             <p>
-                                It's a search application similar to google, you can find images, videos, link and news about whatever you want
+                                Similar to google. Search for web page links. Search and display images, videos and news. You can switch to dark mode. {'(React, React-Redux, RapidApi, JS, Tailwind)'}
                             </p>
                             <span>Description</span>
                         </div>
@@ -29,7 +29,7 @@ const Projects = () => {
                     <div className="pro-cont-img">
                         <div className="pro-cont-description">
                             <p>
-                                App about Pokemon you can find all the pokemons of series, searching by the type or the name, also you can see the statistics of each pokemon.
+                                Show all pokemon. You can search for them by type and by name. It also shows the data of each pokemon. {'(React, React-Redux, React-Router, Res Api, JS, CSS)'}
                             </p>
                             <span>Description</span>
                         </div>
@@ -42,7 +42,9 @@ const Projects = () => {
                     <div className="pro-cont-img">
                         <div className="pro-cont-description" >
                             <p>
-                                You can see all the planets that exist in Rick and Morty series, put a number on the searching and see all the characters that appear in that planet.
+                                Search the characters of each planet. Show the data
+                                of the characters how many chapters appear and if they are
+                                alive or dead. {'React, React-Redux, Res Api, JS, CSS, Html)'}
                             </p>
                             <span>Description</span>
                         </div>
@@ -55,7 +57,9 @@ const Projects = () => {
                     <div className="pro-cont-img">
                         <div className="pro-cont-description" >
                             <p>
-                                It's a CRUD app about users what means, you can create a user putting information like email and birthday, then you can edit it and delete it if you want
+                                Create multiple users with personal data and display them
+                                in the page. You can also edit data and delete the
+                                user if you want. {'(CSS, Hook-Forms, Html, React, Rest Api)'}
                             </p>
                             <span>Description</span>
                         </div>
@@ -68,7 +72,7 @@ const Projects = () => {
                     <div className="pro-cont-img">
                         <div className="pro-cont-description">
                             <p>
-                                Appears quotas of some important person, every time you click the button or reloads the page change the quota and the color.
+                                Appears quotas of some important person, every time you click the button or reloads the page change the quota and the color.{'(CSS, Html, React, Rest Api)'}
                             </p>
                             <span>Description</span>
                         </div>
@@ -81,7 +85,7 @@ const Projects = () => {
                     <div className="pro-cont-img">
                         <div className="pro-cont-description" >
                             <p>
-                                It's an App about the weather of your current location, you can see the temperature in degrees or kelvins.
+                                Show the weather of your location. Change the temperature from Celsius to Fareheit. {'(CSS, Html, React, Rest Api)'}
                             </p>
                             <span>Description</span>
                         </div>

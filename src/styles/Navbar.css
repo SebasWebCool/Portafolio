@@ -128,4 +128,7 @@
     .nav_btn{
         display: inline;
     }
+    .nav_cont_btnlogo{
+      width: auto;
+    }
 }

@@ -20,7 +20,7 @@
 .about_img img{
     width: 100%;
 }
-.about_inf h3{
+.about_text__title{
     font-size: 30px;
 }
 .about_text{
@@ -29,6 +29,12 @@
 }
 .about_text p{
     text-align: justify;
+}
+.about_text__tec{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .subtitle{
     display: inline-block;
@@ -51,5 +57,23 @@
     }
     .about_img{
         display: none;
+    }
+}
+@media screen and (max-width: 550px) {
+    .about_text{
+        font-size: 15px;
+    }
+    .about_text__title{
+        margin-block:0px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .about_text{
+        font-size: 14px;
+    }
+    .about_text__title{
+        margin-block:0px;
+        font-size: 20px;
     }
 }
