@@ -43,7 +43,7 @@ const Header = () => {
                     </div>
 
                     <div className="header__btns">
-                        <a href="./CV_Sebastian_Diaz_Full-Stack.pdf" download><button className='header_btn btn'><p>Download CV</p> </button></a>
+                        <a href="./CV_Sebastian_Diaz_Full-Stack(1).pdf" download><button className='header_btn btn'><p>Download CV</p> </button></a>
                         <a href="#cont-form"><button className='header_btn btn'><p>Contact Me</p> </button></a>
                         {/* <a download="Sebastian_Diaz_CV" href="./public/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a> */}
                     </div>
