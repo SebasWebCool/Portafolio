@@ -43,7 +43,7 @@ const Header = () => {
                     </div>
 
                     <div className="header__btns">
-                        <a href="./CV_Sebastian_Diaz_Full-Stack(1).pdf" download><button className='header_btn btn'><p>Download CV</p> </button></a>
+                        <a href="./CV_Sebastian_Diaz_Full-Stack_(2).pdf" download><button className='header_btn btn'><p>Download CV</p> </button></a>
                         <a href="#cont-form"><button className='header_btn btn'><p>Contact Me</p> </button></a>
                     </div>
                     <div className="header__btns">
