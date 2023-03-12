@@ -1,6 +1,6 @@
 :root {
     --pricipal-color: #828282;
-    --second-color:  #16a085;
+    --second-color:  #125696;
     --terc-color:  #4726a1;
     --four-color:  #063971;
   }
@@ -22,7 +22,7 @@
         background-color: black;
     }
     100%{
-        background-color: var(--second-color);
+        background-color: #125696
     }
 }
 header{

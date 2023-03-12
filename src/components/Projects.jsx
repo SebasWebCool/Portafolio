@@ -48,6 +48,24 @@ const Projects = () => {
                 </div>
 
                 <div className='pro-cont-title'>
+                    <h2>Users CRUD</h2>
+                    <div className="a-cont"  >
+                        <div className="pro-cont-img">
+                            <div className="pro-cont-description" >
+                                <p>
+                                    Full Stack app, create multiple users with personal data and display them
+                                    in the page. You can also edit data and delete the
+                                    user. {'(Express, Jwt, Node, Posgres, Sequelize, CSS, Hook-Forms, Html, React, Rest Api)'}
+                                </p>
+                                <span>Description</span>
+                            </div>
+                            <a href="https://enchanting-gelato-c05688.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1664155148/Portafolio%20Img/Users_CRUD_bbwp1d.png" alt="Project 4" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='pro-cont-title'>
                     <h2>Rick and Morty</h2>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -66,24 +84,6 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='pro-cont-title'>
-                    <h2>Users CRUD</h2>
-                    <div className="a-cont"  >
-                        <div className="pro-cont-img">
-                            <div className="pro-cont-description" >
-                                <p>
-                                    Create multiple users with personal data and display them
-                                    in the page. You can also edit data and delete the
-                                    user if you want. {'(CSS, Hook-Forms, Html, React, Rest Api)'}
-                                </p>
-                                <span>Description</span>
-                            </div>
-                            <a href="https://enchanting-gelato-c05688.netlify.app/" target="_blank">
-                                <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1664155148/Portafolio%20Img/Users_CRUD_bbwp1d.png" alt="Project 4" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
                 <div className='pro-cont-title'>
                     <h2>Quote Box</h2>

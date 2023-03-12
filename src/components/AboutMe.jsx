@@ -23,13 +23,15 @@ const AboutMe = () => {
                     <li>React-Redux</li>
                     <li>React-Router</li>
                     <li>Tailwind</li>
+                    <li>Bootstrap</li>
                   </ul>
                 </div>
                 <div>
                   <h4>Back</h4>
                   <ul>
                     <li>Express</li>
-                    <li>Postgress</li>
+                    <li>Postgres</li>
+                    <li>Jwt</li>
                     <li>Django</li>
                     <li>Sanity</li>
                   </ul>

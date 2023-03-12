@@ -39,17 +39,16 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="header_text">
-                        <p className='header_text_p machine_a'>Allways looking for improvement and knowledge in the world of programming<span >|</span></p>
+                        <p className='header_text_p machine_a'>Always looking for improvement and knowledge in the world of programming<span >|</span></p>
                     </div>
 
                     <div className="header__btns">
                         <a href="./CV_Sebastian_Diaz_Full-Stack(1).pdf" download><button className='header_btn btn'><p>Download CV</p> </button></a>
                         <a href="#cont-form"><button className='header_btn btn'><p>Contact Me</p> </button></a>
-                        {/* <a download="Sebastian_Diaz_CV" href="./public/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a> */}
                     </div>
                     <div className="header__btns">
                         <a href="https://www.linkedin.com/in/sebasti%C3%A1n-e-d%C3%ADaz-ram%C3%ADrez-3a4960244/"><i className='bx bxl-linkedin-square' ></i></a>
-                        {/* <a download="Sebastian_Diaz_CV" href="./public/CVSebastianDiaz.pdf" target="_blank"><button className='header_btn btn'><p>Download CV</p> </button></a> */}
+                        <a href="https://github.com/SebasWebCool"><i class='bx bxl-github'></i></a>
                     </div>
                 </div>
             </div>
